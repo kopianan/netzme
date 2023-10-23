@@ -1,16 +1,13 @@
 # netzme
 
-A new Flutter project.
+Aplikasi Test tentang todo list dengan fitur yang diinginkan
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+- Install apk, silahkan pilih versi apk yg sesuai dengan device. <br>https://drive.google.com/drive/folders/17cpF9vHfs-rhhtbl12o8jd7ndnsgDq-6?usp=share_link
 
-A few resources to get you started if this is your first Flutter project:
+- Login dengan google
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+- Buat task baru
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+- Hapus task silahkan slide ke kiri.
