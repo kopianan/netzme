@@ -15,6 +15,12 @@ abstract class _$AppRouter extends RootStackRouter {
 
   @override
   final Map<String, PageFactory> pagesMap = {
+    AddTaskRoute.name: (routeData) {
+      return AutoRoutePage<dynamic>(
+        routeData: routeData,
+        child: const AddTaskPage(),
+      );
+    },
     FutureRoute.name: (routeData) {
       return AutoRoutePage<dynamic>(
         routeData: routeData,
@@ -51,6 +57,12 @@ abstract class _$AppRouter extends RootStackRouter {
         child: const RegisterPage(),
       );
     },
+    SettingRoute.name: (routeData) {
+      return AutoRoutePage<dynamic>(
+        routeData: routeData,
+        child: const SettingPage(),
+      );
+    },
     SplashRoute.name: (routeData) {
       return AutoRoutePage<dynamic>(
         routeData: routeData,
@@ -58,6 +70,20 @@ abstract class _$AppRouter extends RootStackRouter {
       );
     },
   };
+}
+
+/// generated route for
+/// [AddTaskPage]
+class AddTaskRoute extends PageRouteInfo<void> {
+  const AddTaskRoute({List<PageRouteInfo>? children})
+      : super(
+          AddTaskRoute.name,
+          initialChildren: children,
+        );
+
+  static const String name = 'AddTaskRoute';
+
+  static const PageInfo<void> page = PageInfo<void>(name);
 }
 
 /// generated route for
@@ -140,6 +166,20 @@ class RegisterRoute extends PageRouteInfo<void> {
         );
 
   static const String name = 'RegisterRoute';
+
+  static const PageInfo<void> page = PageInfo<void>(name);
+}
+
+/// generated route for
+/// [SettingPage]
+class SettingRoute extends PageRouteInfo<void> {
+  const SettingRoute({List<PageRouteInfo>? children})
+      : super(
+          SettingRoute.name,
+          initialChildren: children,
+        );
+
+  static const String name = 'SettingRoute';
 
   static const PageInfo<void> page = PageInfo<void>(name);
 }
